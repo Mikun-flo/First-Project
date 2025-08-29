@@ -103,6 +103,56 @@
         .social a:hover {
             color: #000;
         }
+
+         /* Responsive CSS for mobile phone */
+    
+         @media (max-width: 600px) {
+            .container {
+                max-width: 100%;
+                padding: 15px;
+                border-radius: 0; /* Remove rounded corners for full-width feel */
+            }
+
+            h1 {
+                font-size: 2em; /* Smaller heading */
+            }
+
+            p.subtitle {
+                font-size: 1em;
+            }
+
+            .countdown {
+                flex-direction: column; /* Stack countdown boxes vertically */
+                gap: 10px;
+            }
+
+            .countdown div {
+                min-width: 100%; /* Full width for each box */
+                padding: 15px;
+            }
+
+            .countdown .number {
+                font-size: 1.8em;
+            }
+
+            form {
+                flex-direction: column; /* Stack input and button */
+                gap: 15px;
+            }
+
+            input[type="email"] {
+                width: 100%; /* Full width input */
+            }
+
+            button {
+                width: 100%; /* Full width button */
+            }
+
+            .social a {
+                margin: 0 15px; /* More space between icons for touch */
+                font-size: 1.8em;
+            }
+        }
     </style>
 </head>
 
@@ -134,7 +184,7 @@
         <div class="notify-section">
             <h2>Get notified about my birthday</h2>
             <p>Be the first to wish me happy birthday!</p>
-            <form action="https://formspree.io/f/your-form-id" method="POST"> <!-- Replace with Formspree endpoint or similar actual emails --> 
+            <form action="https://formspree.io/f/mwpnvzkb" method="POST"> <!-- Replaced with Formspree endpoint or similar actual emails --> 
                 <input type="email" name="email" placeholder="Enter your email address" required>
                 <button type="submit">Notify Me</button>
             </form>
