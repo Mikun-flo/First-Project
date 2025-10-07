@@ -1,0 +1,44 @@
+
+RECEIPT
+console.log("===================================")
+console.log("     THE 24TH AVENUE RECEIPT       ")
+console.log("-----------------------------------")
+console.log("         Order Details             ")
+console.log("-----------------------------------")
+console.log("Item       Quantity         Price  ")
+console.log("Pasta      2 plates         8,000  ")
+console.log("Meatpie       5             5,000  ")
+console.log("Fanta         2             2,000  ")
+console.log("-----------------------------------")
+console.log("TOTAL                       15,000 ")
+
+
+
+VARIABLES AND CONSTANTS
+let firstName = "Ayomikun";
+const favoriteColor = "Purple";
+
+console.log(firstName);
+console.log(favoriteColor); 
+
+let currentLocation = "Lagos";
+const mood = "Relaxed";
+
+console.log(currentLocation); 
+console.log(mood);
+
+
+DATA TYPES
+const companyName = "Google"; String
+let foundingYear = 2020;      Number
+const isActive = true;        Boolean
+let fundingAmount = 100;      Undefined
+
+
+console.log("Google");
+console.log(2020);
+console.log(true);
+console.log(100);
+
+
+
