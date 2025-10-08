@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suite V2</title>
+    
+   <style> 
+       /* Reset and base styles */
+       * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+       }
+
+      body {
+         font-family: Arial, sans-serif;
+         line-height: 1.6;
+         color: #333;
+         background-color: #ffffff;
+       }
+
+       /* Container for centering content */
+       .container {
+         max-width: 1200px;
+         margin: 0 auto;
+         padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+          padding: 20px 0;
+          background-color: #fff;
+        }
+
+        header .container {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+       }
+
+        .logo {
+         font-size: 1.5rem;
+         font-weight: bold;
+       }
+
+        nav button {
+         margin-left: 10px;
+        }
+
+        /* Buttons */
+       .btn {
+         padding: 10px 20px;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         font-weight: bold;
+        }
+
+        .primary {
+         background-color: #6B46C1;
+         color: #fff;
+        }
+
+        .secondary {
+         background-color: #fff;
+         color: #6B46C1;
+         border: 1px solid #6B46C1;
+        }
+
+       /* Hero section */
+        .hero {
+         padding: 100px 0;
+         text-align: center;
+        }
+
+        .hero h2 {
+         font-size: 3rem;
+         line-height: 1.2;
+        }
+
+        .hero p {
+         max-width: 600px;
+         margin: 20px auto;
+         font-size: 1.1rem;
+         color: #666;
+        }
+
+        .buttons {
+         margin-top: 30px;
+        }
+
+        .buttons .btn {
+         margin: 0 10px;
+        }
+
+        /* Features section */
+        .features {
+         background-color: #F9FAFC;
+         padding: 80px 0;
+         text-align: center;
+       }
+
+        .features h3 {
+         font-size: 2rem;
+         margin-bottom: 20px;
+       }
+
+        .subtitle {
+         max-width: 600px;
+         margin: 0 auto 40px;
+         color: #666;
+        }
+
+        .feature-grid {
+         display: flex;
+         justify-content: space-around;
+         flex-wrap: wrap;
+       }
+
+       .feature-card {
+         background-color: #fff;
+         padding: 20px;
+         border-radius: 8px;
+         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+         max-width: 300px;
+         margin: 20px;
+         text-align: left;
+        }
+
+        .feature-card h4 {
+         font-size: 1.2rem;
+         margin-bottom: 10px;
+       }
+
+        .feature-card p {
+         color: #666;
+        }
+
+        /* Footer */
+        footer {
+         padding: 20px 0;
+         text-align: center;
+         color: #666;
+         font-size: 0.9rem;
+        }
+
+      /* Responsive design for mobile */
+       @media (max-width: 768px) {
+       .hero {
+         padding: 60px 0;
+        }
+
+       .hero h2 {
+         font-size: 2.5rem;
+        }
+
+       .feature-grid {
+         flex-direction: column;
+        }
+
+       .buttons .btn {
+         display: block;
+         margin: 10px auto;
+        }
+
+        header .container {
+         flex-direction: column;
+        }
+
+        nav {
+         margin-top: 10px;
+        }
+        } 
+    </style>
+</head>
+     
+
+
+<!--HTML-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">SuiteV2</h1>
+            <nav>
+                <button class="btn secondary">Sign In</button>
+                <button class="btn primary">Get Started</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to <br>SuiteV2</h2>
+            <p>The ultimate business management platform designed to streamline your operations, manage your inventory, track orders, and engage with customers seamlessly.</p>
+            <div class="buttons">
+                <button class="btn primary">Get Started</button>
+                <button class="btn secondary">Sign In</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h3>Manage Everything you need with ease</h3>
+            <p class="subtitle">Our comprehensive suite of tools helps you manage every aspect of your business from a single, intuitive platform.</p>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>Order Management</h4>
+                    <p>Track and manage all of your orders in one place. From creation to fulfillment, stay on top of your business operations.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Inventory Control</h4>
+                    <p>Keep track of your stock levels, receive alerts when inventory is running low, and optimize your product runs.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Customer Management</h4>
+                    <p>Build and maintain strong relationships with your customers through comprehensive customer management tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 SuiteV2. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
