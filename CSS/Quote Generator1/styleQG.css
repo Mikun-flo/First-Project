@@ -9,7 +9,7 @@
 
         /* Header like a business website */
         header {
-            background-color: #563593; /* Indigo for professional look */
+            background-color:  #165b94; 
             color: white;
             padding: 20px;
             text-align: center;
@@ -43,7 +43,7 @@
         /* Style the quote text */
         #quote-text {
             font-size: 24px;
-            font-style: italic;
+            font-style: normal;
             color: #555;
             margin-bottom: 10px;
         }
@@ -51,29 +51,30 @@
         /* Style the author */
         #quote-author {
             font-size: 18px;
+            font-style: italic;
             color: #888;
             margin-bottom: 20px;
         }
 
         /* Button styled like an "Add to Cart" button but for new quote */
         #new-quote-btn {
-            background-color: #7828a7; /* Green like add to cart */
+            background-color: #257eb5; 
             color: white;
             border: none;
             padding: 15px 30px;
             font-size: 18px;
             border-radius: 5px;
-            cursor: pointer;
+            cursor: progressor;
             transition: background-color 0.3s; /* Hover effect */
         }
 
         #new-quote-btn:hover {
-            background-color: #e057b7; /* Darker green on hover */
+            background-color: #428fe6; /* Blue on hover */
         }
 
         /* Footer like a business site */
         footer {
-            background-color: #333;
+            background-color: #286ea7;
             color: white;
             text-align: center;
             padding: 10px;
